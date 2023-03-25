@@ -1430,3 +1430,198 @@ input.lg {
     display: flex;
     justify-content: center;
 }
+
+/* plan with us 1b */
+.course-header{
+    background-color: #F0FFF0;
+    padding: 40px 0px 0px 40px;
+    color:#654321;
+}
+
+.course-header p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.course-header p a{
+    color: black;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.course-header h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px 0 55px 5px;
+}
+
+.course-header h5{
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+}
+
+.views{
+    padding-top: 20px;
+}
+
+.intro{
+    position: absolute;
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    right: 400px;
+    top: 110px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 15%) ;
+    padding: 0 0 15px;
+    border: 3px solid rgb(0 0 0 / 15%);
+}
+
+.intro iframe{
+    padding: 10px;
+}
+
+.intro p{
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 5px 0;
+    color: #654321;
+}
+
+.intro li{
+    font-size: 16px;
+    padding: 5px;
+    color: #654321;
+}
+
+.intro ul{
+    padding-left: 25px;
+    color: #654321;
+}
+
+.intro i{
+    margin-right: 10px;
+    color: #654321;
+}
+
+.seperate-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+
+.container-lecture-list{
+    padding: 50px 30px 50px 50px;
+    width: 60%;
+    margin-top: -100px;
+    margin-bottom: 75px;
+}
+
+.tutor-intro{
+    height: 200px;
+    background-color: #654321;
+    width: 40%;
+    margin-top: 400px;
+}
+
+.container-lecture-list h1{
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.container-lecture-list a{
+    text-decoration: none;
+    color: #654321;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-lecture-list ul{
+    padding: 0;
+}
+
+.container-lecture-list li{
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 180px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+}
+
+.left{
+    transform: translateX(-50%);
+}
+
+.right{
+    transform: translateX(50%);
+}
+
+.left,.right{
+    transition:transform 400ms ease-in;
+}
+
+.left.appear,.right.appear{
+    transform: translateX(0);
+}
+
+.h2edit2{
+    text-align: center;
+    font-size: x-small;
+    color: #F0FFF0;
+    background: transparent;
+}
+
+.youtube-overlay-side{
+    position: fixed;
+    inset: 0;
+    background-color:  rgba(0,0,0,0.6);
+}
+
+.video iframe{
+    margin: 130px 70px 20px 50px;
+}
+
+.video.hidden{
+    display: none;
+}
+
+.video i{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: #F4F5F7;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+.comments{
+    padding: 0 50px ;
+}
+
+.home-desc{
+    display: none;
+    visibility: hidden;
+}
+
+#no_comments,#hcb_settings{
+    display: none;
+    visibility: hidden;
+}
+
+#hcb_subscribe{
+    visibility: hidden;
+}
+
+.hcb-icon{
+    visibility: hidden;
+}
